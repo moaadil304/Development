@@ -1,0 +1,28 @@
+/* #outer{
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+    background-color: aqua;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    background-color: chartreuse;
+    font-size: 1.5em;    
+    padding: 1em;
+} */
+botton{
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 55px;
+    background-color: black;
+    color: bisque;
+    /* padding: 20px; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    padding-left:1em;
+    padding-right: 1em;
+}
+
+

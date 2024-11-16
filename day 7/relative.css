@@ -1,0 +1,25 @@
+h2{
+    
+    border: 5px solid rgb(205, 23, 23);
+    width: 33%;
+    background-color: black;
+    color: aliceblue;
+    margin: 25px;
+    
+    
+}
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    margin : 25px;
+
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(12, 212, 89);
+    
+    
+     
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <form action="/server">
+        <!-- <level>
+            Username
+            <input type="text" placeholder="enter username">
+        </level> -->
+         <div>
+            <level for="username">username :</level>
+        <!-- <input type="text" placeholder="Enter username" id="username"> -->
+
+        <!-- name attruibute is used for refer the link and show in url name is ... -->
+
+        <input type="text" placeholder="Enter username" id="username" >
+        <!-- name="name"> -->
+         </div>
+         <br>
+         <!-- <level>
+            password
+            <input type="password" placeholder="enter password">
+         </level> -->
+          <div>
+            <level for="password">password :</level>
+         <input type="password" placeholder="Enter password" id="password">
+          </div>
+         <br>
+        <input type="number" placeholder="Enter age"><br><br> 
+        <input type="time" placeholder="time"><br><br>
+  <input type="date" placeholder="date"><br><br> 
+
+         <!-- types of button attribute  -->
+
+        <button type="button">hello</button>
+        
+        <br>
+        /<button type="reset">reset</button>
+
+         <!-- all the daata is deleted or reset -->
+        <br>
+
+        <!-- button using input -->
+         
+        <!-- <input type="button" value="click me">
+        <br>
+        <input type="submit" value="click me 2"> -->
+
+    </form>
+    <hr>
+     <!-- visit any website to search what you want used through the link without name -->
+      <!-- name is directly  -->
+
+    <form action="https://www.youtube.com/results ">
+        <input type="text" placeholder="search in youtube" name="search_query">
+        <button>search</button>
+
+    </form>
+    <hr/>
+    <form action="https://www.google.com/search ">
+        <input type="text" placeholder="search in Google" name="q">
+        <button>search</button>
+    </form>
+    <hr>
+    <form action="https://www.geeksforgeeks.org/courses ">
+        <input type="text" placeholder="search course in geeksforgeeks" name="sourse">
+        <button>search</button>
+        <hr>
+        <input type="checkbox" name="age" id="age">
+        <level for="age"> I am 18+</level>
+          
+
+    </form>
+     <form action="\server">
+          
+       
+
+        <input type="radio" name="fruit" id="101">
+        <level for="101">apple</level>
+        <input type="radio" name="fruit" id="101">
+        <level for="101">banana</level>
+        <input type="radio" name="fruit" id="101">
+        <level for="101">mango</level>
+        <br>
+        <hr>
+         <div>
+            choose your subject :
+            <input type="radio" name="math" id="101">
+        <level for="101">math</level>
+        <input type="radio" name="DSA" id="101">
+        <level for="101">DSA</level>
+        <input type="radio" name="python" id="101">
+        <level for="101">python</level>
+         </div>
+
+         <div>
+            choose course :
+            <select name="course" id="course">
+                <option>select your course</option>
+                <option value="BCA">BCA</option>
+                <option value="btech">BTech</option>
+                <option value="b.com">B.Com</option>
+
+            </select>
+            <br>
+         </div>
+          
+     </form>
+     <form>
+        <level for="feedback"> give your feedback :</level>
+            <textarea id="feedback " name="feedback"></textarea> 
+        
+     </form>
+</body>
+</html>

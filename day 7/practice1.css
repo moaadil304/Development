@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(29, 204, 111);
+    padding: 30px;
+}
+header{
+    text-align: center;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+
+}
+img{
+    text-align: center;
+    border-radius: 50%;
+}
+h1 {
+color: rgb(19, 9, 9);
+}
+p2{
+    color: black;
+     /* padding-top: px; */
+    
+}
+p1{
+    color: brown;
+    text-decoration:underline;
+}
+section{
+     color: rgb(27, 117, 196);
+     border-radius:15px;
+     background-color: burlywood;
+     padding-bottom: 10px;
+     padding-right: 20px;
+     padding-left: 20px;
+     padding-top:5px ;
+     font-weight: 100;
+     margin:20px
+}
+.project {
+    width: 200px; /* Square dimensions */
+    height: 200px;
+    border: 3px solid #ab0b0b;
+    margin: 10px;
+    display: inline-block; /* Aligns the containers side by side */
+    text-align: center;
+    line-height: 30px; /* Vertically centers the text */
+    color: black;
+    padding: 3px;
+}
+footer{
+    background-color:red ;
+    padding: 5px;
+    border-radius: 15px;
+}

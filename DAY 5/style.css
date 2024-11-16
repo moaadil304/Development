@@ -1,0 +1,14 @@
+h1{
+    color : white;
+    background-color: black;
+    /* text-align: center; */
+    /* text-align: end; */
+    /* text-align: justify; */
+    text-align: left;
+}
+body{
+    background-color :bisque;
+}
+section{
+    background-color: rgb(155, 21, 44);
+}
