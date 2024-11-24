@@ -1,0 +1,29 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(48, 27, 236);
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+
+}
+#static {
+    background-color: chartreuse;
+    position : static;
+    top : 100px;
+    left : 100px;
+}
+
+#relative {
+    background-color: chartreuse;
+    position : relative;
+    top : 100px;
+    left : 100px;
+}
+#fixed {
+    background-color: chartreuse;
+    position : fixed;
+    top : 100px;
+    left : 100px;
+}

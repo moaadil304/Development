@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Model</title>
+    <link rel="stylesheet" href="model.css">
+</head>
+<body>
+     <!-- grid lines = lines of the 2D  row and column
+         grid cell   =  box b/w lines 
+         Grid track  =  length b/w two lines
+         -->
+
+        <!-- Grid template = The define the lines & track sizing -->
+         <!-- grid-template-rows
+              grid-tamplete-colums
+              
+              no. of line = no.of track + 1  -->
+
+        <!-- Grid template = Repeat is used to divide all available space 
+         
+          grid-template-row : repeat(count,1fr);  fr meams 1 fraction of 100% width.
+
+          grid-template-column : repeat(count,1fr);-->
+
+          <!-- Grid Gap = they define the gaps b/w the lines
+           
+          row-gap : 10px;
+          column-gap : 10px;
+          -->
+
+          <!-- grid column = Define an items starting and ending position inside the column
+
+           grid-column-start : line no.;
+           grid-column-end : line no.;
+
+           grid-column :start_col  / end_col;
+
+           grid-column: start_col/ span no.;
+
+
+            -->
+
+
+            
+          <!-- grid rows = Define an items starting and ending position inside the row
+
+           grid-row-start : line no.;
+           grid-row-end : line no.;
+
+           grid-row :start_col  / end_col;
+
+           grid-row: start_col/ span no.;
+
+
+            -->
+
+            <!-- Common property 
+             
+               Horizontal -- 
+               justify-item (container)
+               justify-self(item)  
+
+               Vertical ---
+               align-items(container)
+               align-self(item)
+               
+               -->
+    
+
+              <h1>Grid Playground</h1>
+              <div class="container">
+               <div class="item one">1</div>
+               <div class="item two">2</div>
+               <div class="item">3</div>
+               <div class="item">4</div>
+               <div class="item">5</div>
+              </div>
+</body>
+</html>

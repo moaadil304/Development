@@ -1,0 +1,26 @@
+.nav {
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid green;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content : flex-start;
+    flex-wrap : nowrap;
+
+}
+#box {
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    /* padding-top: 5px; */
+    margin-left: 10px;
+    font-size: 24px;
+    /* padding-bottom: 10px; */
+    box-shadow: 2px 2px 4px pink;
+    transition: 1s;
+}
+#box:hover {
+    box-shadow: 4px 4px 12px rgb(16, 229, 80);
+}

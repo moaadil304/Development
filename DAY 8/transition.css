@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    text-align: center;
+    padding: 100px;
+    color: black;
+    font-size: 50px;
+    transition: 2s;
+    /* transition : 1s means take 1 sec. duration to change */
+
+    transition-delay: 1s;
+    /* 1sec. delay after curser touch it */
+
+    margin: 0 auto;
+    /* 0 auto makes center of the div */
+
+    transition:margin-top 2s ease-in .02s;
+
+    margin-top: 25px;
+}
+div:hover{
+    margin-top: 300px;
+    background-color: rgb(172, 15, 149);
+    border-radius: 50%;
+
+}

@@ -1,0 +1,14 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(102, 139, 26,1);
+    /* background-color: rgba(255,0,0,0); color not visible bcoz alpha value  is 0 */
+    color: aqua;
+}
+#opacity{
+    font-size: 10px;
+    color: rgba(255,0,0,1);
+}
+#opacity button{
+    color: rgba(231.23.12,0);
+}

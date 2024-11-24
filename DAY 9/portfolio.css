@@ -1,0 +1,110 @@
+#outer {
+    height: 500px;
+    width: 1000px;
+    background-color: black;
+    
+}
+.nav {
+    height: 50px;
+    width: 900px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    flex-wrap: nowrap;
+    justify-content : flex-start;
+    justify-content : space-between;
+    justify-content : flex-start;
+    margin-left: 10px;
+    /* margin-bottom: 5px; */
+    /* position: fixed; */
+
+
+}
+#bignav {
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    text-align: center;
+    /* position: fixed; */
+}
+#navbar {
+    height: 50px;
+    width:100px;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    padding-top: 10px;
+    text-align: center;
+    box-shadow: 2px 3px 5px yellow;
+    transition: 1s;
+    /* position: fixed; */
+}
+navbar:hover {
+    box-shadow: 4px 6px 10px white;
+}
+.inner {
+    height:500px;
+    width: 1000px;
+    background-color: rgb(178, 6, 163);
+    /* flex-direction: row; */
+    /* display: inline-block; */
+    
+
+}
+ #box1 {
+height: 150px;
+width: 430px;
+/* border: 2px solid white; */
+display: inline-block;
+margin-left: 100px;
+margin-top: 0px;
+margin-bottom: 400px;
+ }
+
+ #box2{
+    height:400px;
+    width: 230px;
+    /* border: 2px solid white; */
+    display: inline-block;
+    /* top: 60px; */
+    margin-left: 80px;
+    margin-top: 100px;
+    /* background-image: url(profile.jpg); */
+    /* background-size: cover; */
+    /* margin: 0 auto; */
+    
+ }
+ img {
+    border-radius: 50%;
+    height:300px;
+    width: 300px;
+    box-shadow: 2px 4px 8px black;
+    transition: 1s;
+ }
+ img:hover {
+    box-shadow: 10px 18px 46px rgb(49, 216, 33);
+ }
+ section {
+    color: yellow;
+    font-size: 30px;
+    font-style: oblique;
+    margin: 10px;
+ }
+ h1 {
+    color: white;
+    /* font-size: large; */
+    margin : 10px;
+    font-size: 40px;
+ }
+ input {
+    background-color: yellowgreen;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rgb(158, 109, 44);
+    height: 40px;
+    width: 100px;
+ }

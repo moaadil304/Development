@@ -1,0 +1,29 @@
+#outer {
+    height: 400px;
+    width: 600px;
+    background-color: aquamarine;
+    margin: 10px auto;
+    border: 2px solid orange;
+    display: flex;  
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    /* flex-wrap: nowrap; */
+     flex-wrap: wrap;
+     /* align-items: center; */
+     align-content: baseline;
+
+}
+#org {
+    /* align-self: flex-start; */
+/* align-self: flex-end; */
+}
+
+#outer div {
+    height: 80px;
+    width: 150px;
+    font-size: 1em;
+}
+ 
